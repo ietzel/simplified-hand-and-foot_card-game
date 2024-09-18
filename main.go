@@ -3,9 +3,9 @@ import ("fmt")
 
 type Player struct {
   var number int
-  var table = [32]int{}
-  var hand = [16]int{}
-  var foot = [16]int{}
+  var table = []int{}
+  var hand = []int{}
+  var foot = []int{}
   var points int
 }
 
@@ -26,39 +26,39 @@ func main() {
   var p6 Player
 
   p1.number = 1
-  p1.table = [32]int{}
-  p1.hand = [16]int{}
-  p1.foot = [16]int{}
+  p1.table = []int{}
+  p1.hand = []int{}
+  p1.foot = []int{}
   p1.points = 0
 
   p1.number = 2
-  p1.table = [32]int{}
-  p1.hand = [16]int{}
-  p1.foot = [16]int{}
+  p1.table = []int{}
+  p1.hand = []int{}
+  p1.foot = []int{}
   p1.points = 0
 
   p1.number = 3
-  p1.table = [32]int{}
-  p1.hand = [16]int{}
-  p1.foot = [16]int{}
+  p1.table = []int{}
+  p1.hand = []int{}
+  p1.foot = []int{}
   p1.points = 0
 
   p1.number = 4
-  p1.table = [32]int{}
-  p1.hand = [16]int{}
-  p1.foot = [16]int{}
+  p1.table = []int{}
+  p1.hand = []int{}
+  p1.foot = []int{}
   p1.points = 0
 
   p1.number = 5
-  p1.table = [32]int{}
-  p1.hand = [16]int{}
-  p1.foot = [16]int{}
+  p1.table = []int{}
+  p1.hand = []int{}
+  p1.foot = []int{}
   p1.points = 0
 
   p1.number = 6
-  p1.table = [32]int{}
-  p1.hand = [16]int{}
-  p1.foot = [16]int{}
+  p1.table = []int{}
+  p1.hand = []int{}
+  p1.foot = []int{}
   p1.points = 0
   
   fmt.Println("Get 5 books and play all your cards to 'go out' - the player with the most points after everyone has gone out wins.")
