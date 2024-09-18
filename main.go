@@ -1,15 +1,17 @@
 package main
 
 import (
+    "os"
     "gioui.org/app"
+    "gioui.org/op"
+    "gioui.org/unit"
+    "gioui.org/widget"
+    "gioui.org/widget/material"
 )
 
 func main() {
     go func() {
-        // create new window
         w := new(app.Window)
-
-        // listen for events in the window
         for {
             w.Event()
         }
