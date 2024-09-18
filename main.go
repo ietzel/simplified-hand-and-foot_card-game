@@ -1,13 +1,15 @@
 package main
 import ("fmt")
 
-func (number) goDown() {  
-    fmt.Printf("Player ", number, "has gone down!")
+func () round() {
+    for i:=1; i <= 6; i++ {
+        turn(i)
+    }
 }
 
-func main() {
-  package main
-import ("fmt")
+func (number) turn {
+    fmt.Printf("Player ", number, "has played.")
+}
 
 func (number) goDown() {  
     fmt.Printf("Player ", number, "has gone down!")
