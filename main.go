@@ -8,9 +8,9 @@ func main() {
 
   type Player struct {
     const NUMBER int
-    var table = [100]int{}
-    var hand = [20]int{}
-    var foot = [20]int{}
+    var table = [32]int{}
+    var hand = [16]int{}
+    var foot = [16]int{}
     var points int
   }
   
