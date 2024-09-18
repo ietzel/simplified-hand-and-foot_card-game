@@ -40,5 +40,5 @@ func main() {
   var p6f = [16]int{}
   var p6p int = 0*/
 
-  fmt.Println("Get 5 books and play all your cards to 'go out' - the player with the most points after everyone has gone out wins.")
+  fmt.Println("Get 5 books and play all your cards to go out; the player with the most points after everyone has gone out wins.")
 }
