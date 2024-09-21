@@ -2,17 +2,47 @@ package main
 import ("fmt")
 
 func () round() {
-    for i:=1; i <= 6; i++ {
-        turn(i)
+    if(p1h.length == 0) {
+        p1f = append(p1f, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    } else {
+        p1h = append(p1h, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
     }
+    turn(1)
+    if(p2h.length == 0) {
+        p2f = append(p2f, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    } else {
+        p2h = append(p2h, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    }
+    turn(2)
+    if(p3h.length == 0) {
+        p3f = append(p3f, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    } else {
+        p3h = append(p3h, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    }
+    turn(3)
+    if(p4h.length == 0) {
+        p4f = append(p4f, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    } else {
+        p4h = append(p4h, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    }
+    turn(4)
+    if(p5h.length == 0) {
+        p5f = append(p5f, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    } else {
+        p5h = append(p5h, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    }
+    turn(5)
+    if(p6h.length == 0) {
+        p6f = append(p6f, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    } else {
+        p6h = append(p6h, RandomIntegerwithinRange := rand.Intn(15-2) + 2)
+    }
+    turn(6)
 }
 
 func (number) turn {
     fmt.Printf("Player ", number, "has played.")
-}
-
-func (number) play() {  
-    fmt.Printf("Player ", number, "has gone down!")
+    
 }
 
 func main() {
@@ -50,5 +80,4 @@ func main() {
   var p6f = [32]int{}
   var p6p int = 0
 
-  fmt.Println("Get 5 books and play all your cards to go out; the player with the most points after everyone has gone out wins.")
 }
