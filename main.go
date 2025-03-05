@@ -1,5 +1,5 @@
 package main
-import ("fmt")
+import ("fmt" "runtime")
 
 func () round() {
 
@@ -13,6 +13,21 @@ function (array []int) goOut {
 
 func (number) turn {
     fmt.Printf("Player ", number, "has played.")
+    switch num := number; num {
+	case 1:
+		cardsA = cardsA.append(RandomIntegerwithinRange := rand.Intn(13));
+	case 2:
+		cardsB = cardsB.append(RandomIntegerwithinRange := rand.Intn(13));
+    case 3:
+		cardsC = cardsC.append(RandomIntegerwithinRange := rand.Intn(13));
+    case 4:
+		cardsD = cardsD.append(RandomIntegerwithinRange := rand.Intn(13));
+	case 5:
+		cardsE = cardsE.append(RandomIntegerwithinRange := rand.Intn(13));
+    case 6:
+		cardsF = cardsF.append(RandomIntegerwithinRange := rand.Intn(13));
+	default:
+		fmt.Printf("No player has decided.")
     
 }
 
