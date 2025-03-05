@@ -53,5 +53,12 @@ func main() {
     cardsF[RandomIntegerwithinRange := rand.Intn(13)]++
   }
 
-  
+  turn := 0
+  for {
+    for i := 1; i <= 6; i++ {
+    	turn(i);
+    }
+    fmt.Println("turn ", turn);
+    turn++
+  } 
 }
